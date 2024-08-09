@@ -1,0 +1,105 @@
+#Program for Reading the from KeyBaord and Display
+
+#DataReadEx1.py
+print("Enter any Value:")
+x=input()
+print(x,type(x))
+
+==============================================================================================
+
+#Program for Reading the from KeyBaord and Display
+#DataReadEx2.py
+x=input("Enter Any Value:")
+print(x,type(x))
+
+
+==============================================================================================
+
+#Program for Reading the data from KeyBaord and  convert into float or int
+
+#DataReadEx3.py
+x=input('Enter Any value:')
+print(x,type(x))
+#Convert x into int type
+y=float(x)
+print(y, type(y))
+print("---------------OR-----------------")
+y=float(input("Enter Another Value:"))
+print(y, type(y))
+==============================================================================================
+
+#DataReadEx4.py
+#Program for Cal Area of Rect
+#Area of Rect = Length x Breadth
+length=float(input("Enter Length:"))
+breadth=float(input("Enter Breadth:"))
+#Cal Area of Rect
+area=length*breadth
+#Display the Result
+print("*"*50)
+print("\t\tLength={}".format(length))
+print("\t\tBreadth={}".format(breadth))
+print("\t\tArea of Rect={}".format(area))
+print("*"*50)
+
+==============================================================================================
+
+#Program for Finding Multiplication or Product Two Numbers
+#DataReadEx5.py
+a=float(input("Enter First Value:"))
+b=float(input("Enter Second Value:"))
+#Multiply
+c=a*b
+print("product({},{})={}".format(a,b,round(c,2)))
+
+==============================================================================================
+
+#Program for Finding Multiplication or Product Two Numbers
+
+#DataReadEx6.py
+print("Enter Two values:")
+x=float(input())
+y=float(input())
+z=x*y
+print("product({},{})={}".format(x,y,round(z,2)))
+
+=============================================================================================
+
+#Program for Finding Multiplication or Product Two Numbers
+#DataReadEx7.py
+print("Enter Two values:")
+z=float(input())*float(input())
+print("Product={}".format(round(z,2)))
+
+=============================================================================================
+
+#Program for Finding Multiplication or Product Two Numbers
+#DataReadEx8.py
+z=float(input("Enter First Value:"))*float(input("Enter Second Value:"))
+print("Product={}".format(round(z,2)))
+
+==============================================================================================
+
+
+#Program for Finding Multiplication or Product Two Numbers
+#DataReadEx8.py
+print("Product={}".format(round(float(input("Enter First Value:"))*float(input("Enter Second Value:")),2)))
+
+
+==============================================================================================
+
+#DataReadEx10.py
+#Program for Cal Perimter of Rect
+#Area of Rect = 2(Length + Breadth)
+length=float(input("Enter Length:"))
+breadth=float(input("Enter Breadth:"))
+#Cal Area of Rect
+per=2*(length+breadth)
+#Display the Result
+print("*"*50)
+print("\t\tLength={}".format(length))
+print("\t\tBreadth={}".format(breadth))
+print("\t\tPerimeter of Rect={}".format(per))
+print("*"*50)
+
+==============================================================================================
