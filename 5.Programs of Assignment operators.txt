@@ -1,0 +1,100 @@
+#Program for Demonstrating Assignment Operator
+#AssigmentOperatorEx1.py
+--------------------------------------------------------------------------------------------
+a,b=float(input("Enter First Value:")),float(input("Enter Second Value:"))
+sum1,sub1,mul1,div1,fdiv1,mod1,exp1=a+b,a-b,a*b,a/b,a//b,a%b,a**b
+print("*"*50)
+print("\t\tResults of Assignment Operator")
+print("*"*50)
+print("\t\t\t{} + {}={}".format(a,b,sum1))
+print("\t\t\t{} - {}={}".format(a,b,sub1))
+print("\t\t\t{} * {}={}".format(a,b,mul1))
+print("\t\t\t{} / {}={}".format(a,b,div1))
+print("\t\t\t{} // {}={}".format(a,b,fdiv1))
+print("\t\t\t{} % {}={}".format(a,b,mod1))
+print("\t\t\t{} ** {}={}".format(a,b,exp1))
+print("*"*50)
+
+============================================================================================
+#Program for Swapping OR Interchaning of Two values by using Multi Line Assigment
+#AssigmentOperatorEx2.py--Logic-1
+--------------------------------------------------------------------------------------------
+a,b=input("Enter Value of a:"),input("Enter Value of b:")
+print('-'*50)
+print("\tOriginal value of a={}".format(a))
+print("\tOriginal value of b={}".format(b))
+print('-'*50)
+#Swapping Logic by using Multi Line assignment
+a,b=b,a # OR   b,a=a,b
+print("\tSwapped value of a={}".format(a))
+print("\tSwapped value of b={}".format(b))
+print('-'*50)
+=============================================================================================
+#Program for Swapping OR Interchaning of Two values
+#AssigmentOperatorEx3.py--Logic-2
+----------------------------------------------------------------------------------------------
+a=input("Enter Value of a:")
+b=input("Enter Value of b:")
+print('-'*50)
+print("\tOriginal value of a={}".format(a))
+print("\tOriginal value of b={}".format(b))
+print('-'*50)
+#Swapping Logic
+k=a  # here k temp Var, which is Holding the value of a
+a=b
+b=k
+print("\tOriginal value of a={}".format(a))
+print("\tOriginal value of b={}".format(b))
+print('-'*50)
+==============================================================================================
+#Program for Swapping OR Interchaning of Two values for Numerical Inetger values Only
+#AssigmentOperatorEx4.py--Logic-3
+----------------------------------------------------------------------------------------------
+a=int(input("Enter Value of a:"))
+b=int(input("Enter Value of b:"))
+print('-'*50)
+print("\tOriginal value of a={}".format(a))
+print("\tOriginal value of b={}".format(b))
+print('-'*50)
+#Swapping Logic
+a=a+b
+b=a-b
+a=a-b
+print("\tOriginal value of a={}".format(a))
+print("\tOriginal value of b={}".format(b))
+print('-'*50)
+==============================================================================================
+#Program for Swapping OR Interchaning of Two values for Numerical Inetger values Only
+#AssigmentOperatorEx5.py--Logic-4
+----------------------------------------------------------------------------------------------
+a=int(input("Enter Value of a:"))
+b=int(input("Enter Value of b:"))
+print('-'*50)
+print("\tOriginal value of a={}".format(a))
+print("\tOriginal value of b={}".format(b))
+print('-'*50)
+#Swapping Logic
+a=a*b
+b=a//b
+a=a//b
+print("\tOriginal value of a={}".format(a))
+print("\tOriginal value of b={}".format(b))
+print('-'*50)
+==============================================================================================
+#Program for Swapping OR Interchaning of Two values for Numerical Inetger values Only
+#AssigmentOperatorEx6.py--Logic-5
+----------------------------------------------------------------------------------------------
+a=int(input("Enter Value of a:"))
+b=int(input("Enter Value of b:"))
+print('-'*50)
+print("\tOriginal value of a={}".format(a))
+print("\tOriginal value of b={}".format(b))
+print('-'*50)
+#Swapping Logic
+a=a^b
+b=a^b
+a=a^b
+print("\tOriginal value of a={}".format(a))
+print("\tOriginal value of b={}".format(b))
+print('-'*50)
+==============================================================================================
